@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fx:id="imageView" fitHeight="300.0" fitWidth="332.0" layoutX="142.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="383.0" layoutY="305.0" onAction="#saveResim" prefHeight="25.0" prefWidth="127.0" text="KAYDET" />
+      <Button layoutX="85.0" layoutY="307.0" onAction="#screenImage" prefHeight="25.0" prefWidth="206.0" text="EKRAN GÖRÜNTÜSÜ AL" />
+   </children>
+</AnchorPane>
